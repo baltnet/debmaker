@@ -1,0 +1,14 @@
+Source: _PACKAGE_
+Section: misc
+Priority: optional
+Maintainer: Baltnet Communications <info@baltnet.ee>
+Build-Depends: debhelper (>=10)
+Standards-Version: 3.9.6
+Homepage: _PROJECT_HOME_
+Vcs-Git: _VCS_SSH_URL_
+Vcs-Browser: _VCS_HTTP_GITHUB_URL_
+
+Package: _PACKAGE_
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: _SHORT_ONE_LINE_DESCRIPTION_

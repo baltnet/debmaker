@@ -1,0 +1,7 @@
+[Unit]
+Description=_DAEMON_DESCRIPTION_
+After=network-online.target
+
+[Service]
+Environment='OPTS='
+ExecStart=/opt/_PACKAGE_DAEMON_PATH_ $OPTS
